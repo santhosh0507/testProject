@@ -1,0 +1,47 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "Lauch new product",
+        "description": "",
+        "id": "this-is-sample-test;lauch-new-product",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6064151600,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "Initiate browser",
+            "match": {
+              "location": "HomeTest.initiate_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 22034803099,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Direct to the home page",
+            "match": {
+              "location": "HomeTest.direct_to_the_home_page()"
+            },
+            "keyword": "When "
+          }
+        ]
+      }
+    ],
+    "name": "this is sample test",
+    "description": "",
+    "id": "this-is-sample-test",
+    "keyword": "Feature",
+    "uri": "features/homeTest.feature",
+    "tags": []
+  }
+]
